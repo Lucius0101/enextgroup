@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:700|Open+Sans:400i|Oswald');
+#subscribe{
+border-radius: 5px;
+    background: #ffffff;
+    padding: 20px; 
+    width: 385px;
+    height: 100px;  
+	margin-left: 100%;
+	
+	
+
+}
+
+.link{
+	
+	
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	color: #d73a1e;
+	
+}
+
+.titulosub{
+	
+	font-family: 'Open Sans', serif;
+	font-size: 18px;
+	
+	
+}
+
+.textosub{
+	
+	font-family: 'Droid Sans', serif;
+	padding-bottom: 15%;
+}
+.submitbtn{
+	border: 2px;
+    border-radius: 5px;
+	height: 37px;
+	width: 95px;
+	color: white;
+	margin-left: 2%;
+	vertical-align: bottom;
+	background-color: #d73a1e;
+	font-family: 'Oswald', sans-serif;
+	
+}
+.socialicons{
+	
+	margin-left: 2%;
+	margin-top: 5%;
+	
+}

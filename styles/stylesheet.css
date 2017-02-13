@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:700|Open+Sans:400i|Oswald');
+	.nome {
+        font-family: 'Droid Sans', serif;
+        font-weight: bold;
+		font-size: 18px;
+      }
+	  
+	  .preco {
+		  font-family: 'Droid Sans', serif;
+		  color :#ff0000;
+		  font-weight: bold;
+	  }
+	  
+	  .titulo{
+		 
+		margin-left: 5%;
+        font-family: 'Droid Sans', serif;
+        font-weight: bold;
+		font-size: 30px;
+		  
+	  }
+	  
+	  #content{
+		  
+		  margin-left:10%;
+		  
+	  }
+	  
+	  .logo {
+		  
+		  font-family: 'Oswald', sans-serif;
+		  font-size: 35px;
+		  color: #d73a1e;
+		  
+		  
+	  }
+	  
+	  .sub{
+		  
+		  font-family: 'Open Sans', sans-serif;
+		  font-size: 18px;
+		  font-weight: bold;
+		  color: purple;
+		  
+		  
+	  }
+		
+	  .ship{
+		  font-family: 'Droid Sans', serif;
+		  font-size: 25px;
+		  color: #d73a1e;
+
+		  
+	  }
+	  
+	  .carrinho{
+		  font-family: 'Oswald', sans-serif;
+		  font-size: 25px;
+		  color: #d9d9d9;
+		  
+		  
+	  }
+	  
+	a {
+		text-decoration: none
+	}
+	

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+  
+  <link rel="stylesheet" type="text/css" href="styles/stylesheet.css"/>
+  
+  <link rel="stylesheet" type="text/css" href="styles/menu.css"/>
+  
+  <link rel="stylesheet" type="text/css" href="styles/produto.css"/>
+  
+  <link rel="stylesheet" type="text/css" href="styles/footer.css"/>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/popular.js"></script>
+  <script src="js/lightbox.js"></script>
+  <script src="js/footer.js"></script>
+  <script src="js/zbox.js"></script>
+
+  
+   <title>Merlin's Potions</title>
+    <meta charset="utf-8">
+  </head>
+  <script>
+		//Script para o lightbox
+		var a;
+		
+		document.addEventListener("DOMContentLoaded", function(event) {
+
+			a = new Zbox({
+				
+				overlayClick 	: true, 
+				
+				fadeTime 		: 1000, 
+				
+				loading  		: "Carregando",
+				
+				querySelector 	: ".lightbox", 
+			});
+		});
+		
+	</script>
+	
+	<!-- Chamar funcao (popular.js) no carregamento -->
+	<body onLoad="buildHtmlTable()">
+	
+	<!-- header -->
+	<table class="center" width="100%" height= "100%">
+	<tr>
+	
+		<td align = "center">
+			<span class ="logo"> <b>MERLIN'S</b> POTIONS</span>
+			</br>
+			<span class="sub"> <i>&#x2015; fine potions since 1026 &#x2015; </i></span>
+		</td>
+		
+		<td>
+			<input style= "font-size: 23pt;"type="text" placeholder="Search our stock" size="20"  >
+		</td>
+				
+		<td>
+			<span class ="ship"> <b><i>Free shipping </br> on orders over $50</i> </b></span>
+		</td>		
+		
+		<td>
+			<span class ="carrinho" style = "cursor: pointer;">BAG: <span style = "color:red;"> 0 </span></span>			
+		</td>		
+		
+	</tr>
+</table>
+
+
+
+	<!-- MENU -->
+
+		<ul>
+		  <li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Potions &#x25BC;</a>
+		      <div class="dropdown-content">
+				<a href="#">Special</a>
+				<a href="#">Antidote</a>
+				<a href="#">Cure</a>
+			  </div>
+		  </li>
+		  <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Ingredients &#x25BC;</a>
+			  <div class="dropdown-content">
+				<a href="#">Vegetables</a>
+				<a href="#">Animals</a>
+				<a href="#">Magical</a>
+			  </div>
+		  </li>
+		  <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Books &#x25BC;</a>
+			  <div class="dropdown-content">
+				<a href="#">Historical</a>
+				<a href="#">Rituals</a>
+				<a href="#">Training</a>
+			  </div>
+		  </li>
+		  <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Supplies &#x25BC;</a>
+			  <div class="dropdown-content">
+				<a href="#">Food</a>
+				<a href="#">Tools</a>
+				<a href="#">Medicinal</a>
+			  </div>
+		  </li>
+		  <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Charms &#x25BC;</a>
+			  <div class="dropdown-content">
+				<a href="#">Potion creation</a>
+				<a href="#">Potion improvement</a>
+			  </div>
+		  </li>
+		  <li><a href="#clearance" >Clearance!</a></li>
+		  <li><a href="#signin" style= "margin-left: 280px;">Sign In</a></li>
+		  <li style= "margin: 30px 0px 20px 0px; color: #910fbd;"> or </li>
+		  <li><a href="#signup" >Sign Up</a></li>
+		  
+		</ul>
+	
+	
+	<p class="titulo">Potions</p>
+	  <div id="content"></div>
+	  
+	  
+	
+	
+	  <img src="imgs/aging-potion.png" alt="Picture description" class = "lightbox" width="10%" height="2%" style = "cursor: pointer;"> &#8592; Lightbox</img>
+
+	  
+	  <div id="footer" style = "background-color: #e6e6e6;"></div>
+	  
+	  
+	  <script>
+        buildFooter();
+	  </script>
+	
+	</body>
+</html>
